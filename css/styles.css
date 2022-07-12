@@ -1,0 +1,325 @@
+@media (max-width: 430px) {
+  body {
+    background: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: right 4vw bottom 61vh, left 5vw top 20vh;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  main {
+    margin: 30px;
+  }
+
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240vh;
+  }
+
+  h1 {
+    color: hsl(300, 43%, 22%);
+    max-width: 260px;
+    margin-left: 50px;
+    font-size: 2.5rem;
+  }
+
+  .idle-h2 {
+    display: none;
+  }
+
+  .service {
+    max-width: 275px;
+    line-height: 1.5;
+    margin-left: 40px;
+    color: hsl(303, 10%, 53%);
+  }
+
+  .stars {
+    margin: 5px;
+  }
+
+  .rating-para {
+    margin-top: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+  }
+
+  .review {
+    margin: 30px;
+    background-color: hsl(300, 24%, 96%);
+    max-width: 300px;
+  }
+
+  .guru {
+    margin: 30px;
+    background-color: hsl(300, 24%, 96%);
+    max-width: 300px;
+  }
+
+  .best-tech {
+    margin: 30px;
+    background-color: hsl(300, 24%, 96%);
+    max-width: 300px;
+  }
+
+  .comment-div {
+    max-width: 320px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+
+  .colton {
+    background-color: hsl(300, 43%, 22%);
+    height: 230px;
+    border-radius: 10px;
+  }
+
+  .irene {
+    background-color: hsl(300, 43%, 22%);
+    height: 230px;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+  }
+
+  .anne {
+    background-color: hsl(300, 43%, 22%);
+    height: 230px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .text-div {
+    margin: 26px;
+  }
+
+  .info-div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin-bottom: 0;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .role {
+    margin-top: 5px;
+    color: hsl(333, 80%, 67%);
+  }
+
+  .info-para {
+    line-height: 1.5;
+    color: hsl(0, 0%, 100%);
+    max-width: 240px;
+    text-align: initial;
+  }
+
+  .attribution {
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 500px;
+    display: none;
+  }
+
+  a {
+    color: hsl(228, 45%, 44%);
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 430px) {
+  body {
+    background: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: right 67vw bottom 57vh, left 75vw top 3vh;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 10px;
+  }
+
+  .parent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: auto;
+    margin-top: 35px;
+  }
+
+  h1 {
+    color: hsl(300, 43%, 22%);
+    max-width: 260px;
+    margin-left: 40px;
+    font-size: 2.5rem;
+  }
+
+  .idle-h2 {
+    display: none;
+  }
+
+  .upper-layer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    justify-content: space-between;
+  }
+
+  .s-h {
+    text-align: left;
+  }
+
+  .service {
+    max-width: 380px;
+    line-height: 1.5;
+    margin-left: 40px;
+    color: hsl(303, 10%, 53%);
+  }
+
+  .stars {
+    margin: 5px;
+  }
+
+  .rating-para {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+  }
+
+  .review {
+    margin: 30px;
+    background-color: hsl(300, 24%, 96%);
+    width: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    right: 50px;
+  }
+
+  .guru {
+    margin: 30px;
+    background-color: hsl(300, 24%, 96%);
+    width: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .best-tech {
+    margin: 30px;
+    background-color: hsl(300, 24%, 96%);
+    width: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    left: 50px;
+  }
+
+  .comment-div {
+    width: 75vw;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .colton {
+    background-color: hsl(300, 43%, 22%);
+    height: 230px;
+    border-radius: 10px;
+  }
+
+  .irene {
+    background-color: hsl(300, 43%, 22%);
+    height: 230px;
+    border-radius: 10px;
+    margin: 20px 15px 20px 15px;
+  }
+
+  .anne {
+    background-color: hsl(300, 43%, 22%);
+    height: 230px;
+    border-radius: 10px;
+    margin-top: 35px;
+  }
+
+  .text-div {
+    margin: 26px;
+  }
+
+  .info-div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin-bottom: 0;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .role {
+    margin-top: 5px;
+    color: hsl(333, 80%, 67%);
+  }
+
+  .info-para {
+    line-height: 1.5;
+    color: hsl(0, 0%, 100%);
+    width: 256px;
+    text-align: initial;
+  }
+
+  .attribution {
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 500px;
+  }
+
+  a {
+    color: hsl(228, 45%, 44%);
+    font-size: 10px;
+  }
+}
